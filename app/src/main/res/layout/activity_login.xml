@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7fccff"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_launcher_foreground"
+        tools:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:fontFamily="cursive"
+        android:text="@string/title"
+        android:textColor="#000000"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/editTextUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitulo"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="32dp"
+        android:background="#7fccff"
+        android:gravity="center"
+        android:hint="Correo"
+        android:inputType="textEmailAddress"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTextContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUsuario"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="#7fccff"
+        android:hint="Contraseña"
+        android:textColor="#000000"
+        android:inputType="textPassword"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/buttonIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextContraseña"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="32dp"
+        android:background="#FFFFFF"
+        android:text="Iniciar Sesión"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#42a5f5"
+        android:textColorLink="#42a5f5" />
+
+    <Button
+        android:id="@+id/buttonRegistrarse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonIniciarSesion"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="#FFFFFF"
+    android:text="Registrarse"
+    android:textColor="#FFFFFF"
+    />
+
+
+</RelativeLayout>
+
+

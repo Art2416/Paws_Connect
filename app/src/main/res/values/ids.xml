@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editTextUsuario" type="id">editTextUsuario</item>
+    <item name="editTextContraseña" type="id">editTextContraseña</item>
+    <item name="buttonIniciarSesion" type="id">editTextContraseña</item>
+    <item name="editTextNombre" type="id">editTextNombre</item>
+    <item name="editTextRaza" type="id">editTextRaza</item>
+    <item name="editTextEdad" type="id">editTextEdad</item>
+    <item name="editTextColor" type="id">editTextColor</item>
+    <item name="buttonRegistrarMascota" type="id">buttonRegistrarMascota</item>
+    <item name="editTextCorreo" type="id">editTextCorreo</item>
+    <item name="editTextClave" type="id">editTextClave</item>
+    <item name="editTextVerificacionClave" type="id">editTextVerificacionClave</item>
+    <item name="buttonRegistrar" type="id">buttonRegistrar</item>
+</resources>
